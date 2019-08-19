@@ -48,6 +48,9 @@ El code coverage dio 86.6%, y se puede ver en la siguiente imagen de evidencia:
 ![code_coverage](resources/images/code_coverage.png)
 
 
+Para soportar una alta cantidad de peticiones, las instancias de App y DB fueron configuradas para crecer acorde a la demanda. Las pruebas de carga fueron hechas con la suite de SoapUI, obteniendo resultados exitosos.
+
+
 
 
 
