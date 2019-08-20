@@ -190,4 +190,16 @@ public class MutantServiceImplTest {
 		// invoke isMutant Service with this dna. The service have to throws an Exception
 		mutantService.isMutant(dna);
 	}
+	/**
+	 * This test is to validate that isMutant Service throws an exception if the dna is empty
+	 * @throws Exception
+	 */
+	@Test(expected = Exception.class)
+	public void testEmptyDNA() throws Exception {
+		// set an empty dna
+		String[] dna = {};
+		
+		// invoke isMutant Service with this dna. The service have to throws an Exception
+		mutantService.isMutant(dna);
+	}
 }

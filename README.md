@@ -44,7 +44,7 @@ Ejemplo:
 ## Tests:
 
 Los tests automáticos se hicieron con [jUnit](https://junit.org) y [Mockito](https://site.mockito.org/) a través de Spring Boot.
-El code coverage dio 86.6%, y se puede ver en la siguiente imagen de evidencia:
+El code coverage dio 85.8%, y se puede ver en la siguiente imagen de evidencia:
 ![code_coverage](resources/images/code_coverage.png)
 
 
